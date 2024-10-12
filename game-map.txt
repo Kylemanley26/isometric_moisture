@@ -1,0 +1,53 @@
+```
+moist_world/
+├── __init__.py
+├── main.py
+├── game_settings.py
+├── game_loop.py
+├── intro_sequence.py
+├── mariner_creation.py
+├── title_card.py
+├── assets/
+│   └── images/
+│        ├── events/
+│        │    ├── enemy_ship.png
+│        │    ├── player_ship.png
+│        │    ├── bsmith_sprite/BLACKSMITH.png
+│        │    └── trader_sprite/
+│        │         ├── approval.png
+│        │         ├── dialogue.png
+│        │         ├── idle.png
+│        │         ├── idle_2.png
+│        │         └── idle_3.png
+│        ├── tilesets/
+│        ├── character_silhouette.png
+│        ├── default_mariner.png
+│        └── overworld/
+│             ├── water_frames/0000.png-0039.png
+│             ├── trimaran-full.png
+│             └── trimaran.png
+│
+├── overworld/
+│   ├── __init__.py
+│   ├── overworld_map.py
+│   ├── player_token.py
+│   └── world_map.py
+│
+├── side_scroll/
+│   ├── __init__.py
+│   ├── naval_battle.py
+│   ├── trader_event.py
+│   └── event_mgr.py
+│
+├── ui/
+│   ├── __init__.py
+│   ├── main_menu.py
+│   └── in_game_menu.py
+│
+└── utils/
+    ├── __init__.py
+    ├── debug_menu.py
+    ├── asset_loader.py
+    └── camera.py
+
+    
